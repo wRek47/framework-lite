@@ -9,9 +9,14 @@
 	
 	$fw->get_cwp();
 	
-	$fw->get_menu("main_menu");
+	$fw->get_menu("main");
 
 */
+
+define("EOL", "\n");
+define("TAB", "\t");
+
+define("VOID_HREF", "javascript:void();");
 
 class FrameWork {
 
@@ -36,6 +41,11 @@ class FrameWork {
 			elseif ($this->uri == "default"):
 			
 				if (in_array("is_default", $page['attributes']))
+					$cwp = $page;
+			
+			else:
+			
+				if (in_array("is_404", $page['attributes']))
 					$cwp = $page;
 			
 			endif;
