@@ -9,3 +9,6 @@ Include framework-lite.php into your parent/jailed files and instantly unlock ph
 This project is in-development and version information will be released after Alpha stage of Framework-Lite.
 
 Check back regularly to see engine progress.
+
+Also see: https://classroom.google.com/c/MTk4NDQzNTAwODE0?cjc=dt5du3v
+Where you'll find a complete classroom dedicated to teaching you the benefits and the ins-and-outs of developing with websites {FrameWork}
